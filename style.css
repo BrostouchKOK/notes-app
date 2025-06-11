@@ -70,7 +70,7 @@
     font-size: 28px;
     flex-direction: column;
     gap: 10px;
-    text-align: center;
+    text-align: celenter;
   }
 
   .container h1 img {
@@ -117,5 +117,10 @@
 @media (max-width: 768px) {
   .container {
     padding: 5% 5% 10%; /* top: 5%, left/right: 5%, bottom: 10% */
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    padding: 8% 5% 12%; /* balanced padding on all sides */
   }
 }
